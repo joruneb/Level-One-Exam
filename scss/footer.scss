@@ -1,0 +1,124 @@
+footer{
+  width: 100%;
+  height: 100%;
+  background: $main-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 135px;
+
+  p{
+    color: $text-color;
+    opacity: 0.5;
+  }
+.social-links{
+    .fb{
+      width: 11px;
+      height: 20px;
+    }
+    .ig{
+      width: 20px;
+      height: 20px;
+    }
+    .twitter{
+      width: 24px;
+      height: 20px;
+      margin-left: 105px;
+    }
+    .pinterest{
+      width: 16px;
+      height: 20px;
+      margin-left: 105px;
+    }
+    .rss{
+      width: 20px;
+      height: 20px;
+      opacity: 0.65;
+      margin-left: 105px;
+    }
+  }
+}
+
+.social-nav{
+    display: flex;
+    justify-content: space-between;
+    background: $text-color;
+    box-shadow: 0px 1px 3px #00000061;
+
+    .social-media{
+      margin-left: 152px;
+      padding: 19px 0;
+      width: 394px;
+
+      h3{
+        font-size: 20px;
+        font-weight: 600;
+        color: $text-color-2;
+      }
+
+      p{
+        margin-top: 5px;
+        font-size: 14px;
+        color: $text-color-3;
+      }
+    }
+  }
+
+  .social-links{
+    margin-right: 158px;
+    padding: 38px 0;
+    .fb{
+      width: 16px;
+      height: 30px;
+    }
+    .ig{
+      width: 30px;
+      height: 30px;
+      margin-left: 105px;
+    }
+    .twitter{
+      width: 36px;
+      height: 30px;
+      margin-left: 105px;
+    }
+    .pinterest{
+      width: 24px;
+      height: 30px;
+      margin-left: 105px;
+    }
+    .rss{
+      width: 30px;
+      height: 30px;
+      opacity: 0.65;
+      margin-left: 105px;
+    }
+  }
+
+
+  @media (max-width: 700px){
+    footer{
+      padding: 0 20px;
+      .social-links{
+
+        margin-left: 0px;
+        margin-right: 10px;
+
+        .fb, .ig, .twitter, .pinterest, .rss{
+          margin-left: 10px;
+      }
+    }
+  }
+}
+
+
+@media only (min-width: 700px)  and (max-width: 1200px){
+footer{
+  padding: 0 50px;
+.social-links{
+  margin-right: 50px;
+.fb, .ig, .twitter, .pinterest, .rss{
+  margin-left: 50px;
+}
+}
+}
+}
